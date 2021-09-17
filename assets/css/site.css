@@ -1,0 +1,457 @@
+body {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif, serif;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.box{
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+  padding: 20px 25px 40px 30px;
+  margin-bottom: 40px;
+}
+
+.name-head{
+  color: #2C3E50;
+  text-align: center;
+  margin-top:50px;
+}
+
+.info {
+  height: 10rem;
+  margin-bottom: 50px;
+}
+
+.avatar{
+  display: inline-block;
+  width: 170px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+  border-radius: 1px;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.entry-type {
+  color: #2C3E50;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+  position: relative;
+}
+
+.entry + .entry {
+  margin-top: 2rem;
+}
+
+.time {
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.title {
+  color: #2C3E50;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.time > .title {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+.time > .subtitle {
+  font-weight: 300;
+}
+
+.title > span.bold {
+  color: #1abc9c;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #aaa;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.detail.first:before {
+  top: 6px;
+}
+
+.detail.last:before {
+  content: none;
+}
+
+.main-nav {
+  padding-bottom: 2rem;
+}
+
+.resume-container{
+  text-align: center;
+  border: 1.5px solid #d83f3f;
+  padding: .5em 1em;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+  color: #d83f3f;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+.resume-container:hover {
+  background-color: #d83f3f;
+}
+
+.resume-container:hover{
+  color:white;
+}
+
+a {
+  color: #617487;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2C3E50;
+}
+
+.subtitle.textify a {
+  font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #2C3E50;
+}
+
+.nav-pills .nav-link.active:hover{
+  background: #42586E;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.nav-item{
+  text-align: center;
+  position: relative;
+}
+
+.nav-link:hover{
+  background: #aaa;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-link:hover {
+  font-weight: normal;
+  background-color: #d83f3f;
+}
+
+details{
+  cursor:pointer;
+}
+
+details summary{
+  outline: none;
+}
+details summary::-webkit-details-marker {
+  color: #d83f3f;
+  font-size: 15px;
+}
+
+details summary:hover{
+  background-color: #eee;
+}
+
+div .subtitle.textify p[class ="my-github"] {
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+}
+
+div .subtitle.textify p[class ="my-github"] b {
+  color: #d83f3f;
+}
+
+div .subtitle.textify p[class ="my-github"]:hover b {
+ color: red;
+}
+
+.hobbies {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#hobbies-box {
+  margin-bottom: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  padding: 5px;
+  z-index: 10000;
+  background-color: #2C3E50;
+  /*opacity: 0.9;*/
+}
+
+footer .icons {
+  font-size: medium;
+  position: absolute;
+  top: 5px;
+}
+
+footer .icons a {
+  cursor: pointer;
+  padding: 6px 5px;
+  /*border-radius: 2px;*/
+  color: white;
+}
+
+footer .icons #github:hover  {
+  background-color: white;
+  color: #2C3E50;
+}
+
+footer .icons #linkedin:hover {
+  background-color: #0077B5;
+}
+
+footer .icons #instagram:hover {
+  background-color: #cd486b;
+}
+
+footer .icons #email {
+
+}
+
+footer .icons #email:hover {
+  background-color: #c71610;
+}
+
+#aboutMeBox p {
+  padding: 0px 35px 0px 30px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  line-height: 28px;
+  font-size: 16px !important;
+  text-align: justify;
+}
+
+#aboutMeBox p a {
+  color: #d83f3f;
+}
+
+.box .row:first-child {
+  padding-top: 25px;
+}
+
+.box .row:last-child {
+  padding-bottom: 10px;
+}
+
+/*for the arrow icon*/
+.row div i {
+  display: inline-block;
+  font-size: 20px;
+  color: #d83f3f;
+}
+
+.row h1 {
+  display: inline-block;
+}
+
+.nav-pills .nav-item i {
+  color: #617487;
+  padding-right: 10px;
+  position: relative;
+  top: -1px;
+}
+
+.nav-pills .nav-item:hover i {
+  color: white;
+}
+
+span[class="red-text"] {
+  color: #d83f3f;
+}
+
+span[class="blue-text"] {
+  color: #617487;
+}
+
+span[class="bold"] {
+  font-weight: bold;
+}
+
+#ielts {
+  font-size: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.textify {
+  white-space: pre-line;
+}
+
+#sad-girl-watercolor {
+  display: block;
+  margin: auto;
+  width: 240px;
+  height: 240px;
+}
+
+/*---------------------OTHER SCREENS --------------------*/
+
+@media screen and (max-width: 767px) {
+  .mobile-resume{
+    display: block;
+  }
+  #AboutMe {
+    text-align: center;
+  }
+  .name-head{
+    margin-bottom: 30px;
+    margin-top:10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .main-nav {
+    padding-bottom: 0px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #aboutMeBox p {
+    font-size: x-small !important;
+    line-height: 18px;
+    text-align: left;
+  }
+
+  .box .row:last-child,
+  .box .row:first-child {
+    padding: 0;
+  }
+
+  .box {
+    padding: 15px;
+  }
+
+  div.title {
+    font-size: small !important;
+  }
+
+  .subtitle,
+  .textify {
+    font-size: x-small;
+  }
+
+  .time > .title {
+    font-size: x-small !important;
+  }
+
+  .entry-type {
+    font-size: medium;
+  }
+
+  p[class="my-github"] {
+    font-size: xx-small !important;
+    font-weight: normal;
+  }
+
+  div.title.hobbies {
+    padding-top: 0px;
+  }
+
+  #ielts {
+    font-size: 7px;
+  }
+
+  .entry + .entry {
+    margin-top: .5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-resume{
+    display: none;
+  }
+
+  .entry-type {
+    padding-bottom: 5px;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 6rem;
+    right: 15px;
+  }
+
+  .time {
+    padding-right: 3rem;
+    padding-bottom: 0;
+  }
+
+  .detail:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: calc(100% + 2.375rem);
+    width: 2px;
+    background-color: #ddd;
+    top: 0;
+    left: -25px;
+  }
+
+  .detail:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+    left: -36px;
+    top: 6px;
+    border: 2px solid #ddd;
+    background-color: #fafafa;
+  }
+
+  .time > .title,
+  .time > .subtitle {
+    font-weight: 300;
+    text-align: right;
+  }
+
+  .time > .title {
+    font-size: small;
+  }
+
+  .time > .subtitle {
+    font-size: x-small;
+  }
+}
